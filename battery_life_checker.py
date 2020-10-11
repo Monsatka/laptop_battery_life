@@ -7,10 +7,12 @@ import time
 battery=psutil.sensors_battery()
 while True:
     percent=battery.percent
-    notification.notify(
-        title="Battery Percentage",
-        message=f"{percent}% battery remaining",
-        timeout=10
-    )
+    if percent <= 20:
+        notification.notify(
+            title="Battery Percentage",
+            message=f"{percent}% battery remaining",
+            timeout=10
+        )
+        break
 
     time.sleep(60*5)
