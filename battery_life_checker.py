@@ -1,7 +1,7 @@
 #batterylife_checker
 #@author: Monika
 #@date: 05.10.2020
-#@update:10.10.2020
+
 
 
 import psutil
