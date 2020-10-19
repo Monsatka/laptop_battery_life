@@ -1,6 +1,6 @@
 #batterylife_checker
 #@author: Monika
-#@date: 05.10.2020
+
 
 
 
